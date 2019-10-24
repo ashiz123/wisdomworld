@@ -1,0 +1,15 @@
+.container-padding
+{
+    padding:10px;
+}
+
+.invalid-feedback
+{
+    color:red !important;
+}
+
+.nav-blue
+{
+    background-color: blue !important;
+}
+
