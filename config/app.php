@@ -177,6 +177,8 @@ return [
         App\Providers\RepositoryServiceProvider::class,
         App\Providers\ProfileServiceProvider::class,
         App\Providers\ProfileImageServiceProvider::class,
+        Barryvdh\Cors\ServiceProvider::class,
+        
 
     ],
 

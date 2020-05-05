@@ -7,9 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(Post::class, function (Faker $faker) {
     return [
-        "user_id" => function(){
-            return factory(App\User::class)->create()->id;
-        },
+        "user_id" => 130,
         "title" => $faker->title,
         "description" => "testing only for testing",
         "post_type_id" => function(){
